@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kantin Informatika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #666;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .left, .right {
+            width: 50%;
+            padding: 20px;
+        }
+        .section-item {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        .section-item img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .section-item div {
+            flex: 1;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 5px 0;
+        }
+        .right {
+            border-left: 1px solid #ddd;
+        }
+        .right h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .right ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .right ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .right .contact {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    KANTIN INFORMATIKA<br>Warung IF
+</header>
+
+<nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#menu">Lihat Menu</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+    <div class="left">
+        <div class="section-item" id="menu">
+            <img src="ayam.jpg" alt="Ayam Geprek Mozzarella">
+            <div>
+                <h2>Ayam Geprek Mozzarella</h2>
+                <p><strong>Rp. 15.000</strong></p>
+                <p>Ayam geprek dengan sambal merah ditambah topping mozzarella.</p>
+            </div>
+        </div>
+        <div class="section-item">
+            <img src="nasi.jpg" alt="Nasi Campur">
+            <div>
+                <h2>Nasi Campur</h2>
+                <p><strong>Rp. 12.000</strong></p>
+                <p>Nasi dengan berbagai macam lauk dan sayuran.</p>
+            </div>
+        </div>
+        <div class="section-item">
+            <img src="kwetiau.jpg" alt="Kwetiau Goreng">
+            <div>
+                <h2>Kwetiau Goreng</h2>
+                <p><strong>Rp. 17.000</strong></p>
+                <p>Kwetiau goreng dengan bumbu spesial dan irisan ayam.</p>
+            </div>
+        </div>
+        <div class="section-item">
+            <img src="nasi-kuning.jpg" alt="Nasi Kuning">
+            <div>
+                <h2>Nasi Kuning</h2>
+                <p><strong>Rp. 10.000</strong></p>
+                <p>Nasi kuning dengan telur, ayam suwir, dan sambal.</p>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <h3>Masakan Populer</h3>
+        <ul>
+            <li>Sayur Sop</li>
+            <li>Sayur Asem</li>
+            <li>Sayur Lodeh</li>
+            <li>Sayur Betawi</li>
+        </ul>
+        <div class="contact" id="kontak">
+            <h3>Kontak</h3>
+            <p>KANTIN IF<br>
+                <a href="https://wa.me/6285233009269" target="_blank">wa.me/+6285233009269</a>
+            </p>
+        </div>        
+    </div>
+</div>
+
+<section id="beranda" class="container">
+    <div class="section-item">
+        <div>
+            <h2>Selamat datang di Kantin IF</h2>
+            <p>Ini adalah tempat favorit untuk menikmati berbagai hidangan enak di kantin kami.</p>
+        </div>
+    </div>
+</section>
+
+<section id="tentang" class="container">
+    <div class="section-item">
+        <div>
+            <h2>Tentang Kami</h2>
+            <p>Kantin Informatika terletak di sisi Timur departemen informatika Institut Teknologi Sepuluh Nopember. Kami menyediakan makanan khas Indonesia dengan harga terjangkau dan rasa yang lezat.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
